@@ -1,10 +1,14 @@
 {
   "name": "say-hello-lab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "type": "module",
+  "homepage": "https://github.com/cngvc/say-hello-lab",
+  "repository": {
+    "url": "git+https://github.com/cngvc/say-hello-lab.git"
+  },
   "scripts": {
     "tsc": "tsc",
     "build": "tsup"
@@ -15,5 +19,6 @@
   "devDependencies": {
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
-  }
+  },
+  "dependencies": {}
 }
