@@ -1,13 +1,13 @@
 {
-  "name": "say-hello-lab",
-  "version": "1.0.1",
+  "name": "tea-testnet-ts-nothing-to-see",
+  "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "type": "module",
-  "homepage": "https://github.com/cngvc/say-hello-lab",
+  "homepage": "https://github.com/cngvc/tea-testnet-ts-nothing-to-see",
   "repository": {
-    "url": "git+https://github.com/cngvc/say-hello-lab.git"
+    "url": "git+https://github.com/cngvc/tea-testnet-ts-nothing-to-see.git"
   },
   "scripts": {
     "tsc": "tsc",
@@ -20,5 +20,7 @@
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "tea-testnet-ts-nothing-to-see": "^1.0.0"
+  }
 }
